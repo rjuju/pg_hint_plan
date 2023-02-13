@@ -1,9 +1,31 @@
 site_name: pg_hint_plan
+site_url: https://github.com/ossc-db/pg_hint_plan
+site_description: Planner hints for PostgreSQL
+site_author: Nippon Telegraph and Telephone Corporation
+
+repo_url: https://github.com/ossc-db/pg_hint_plan
+
+copyright: Copyright (c) 2012-2023, NIPPON TELEGRAPH AND TELEPHONE CORPORATION
+
+nav:
+  - 'synopsis.md'
+  - 'description.md'
+  - The hint table: 'hint_table.md'
+  - 'installation.md'
+  - 'uninstallation.md'
+  - Details in hinting: 'hint_details.md'
+  - 'errors.md'
+  - 'functional_limitations.md'
+  - 'requirements.md'
+  - Hints list: 'hint_list.md'
+
 theme:
   name: readthedocs
   highlightjs: true
+
 extra_css:
   - css/custom.css
+
 plugins:
   - search
   - mkdocstrings:
@@ -12,3 +34,10 @@ plugins:
         python:
           options:
             docstring_style: sphinx
+
+# upstream bug, requires 4 space identation...
+markdown_extensions:
+    - toc:
+        permalink: True
+        separator: "#"
+        baselevel: 3
