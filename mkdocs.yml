@@ -1,0 +1,14 @@
+site_name: pg_hint_plan
+theme:
+  name: readthedocs
+  highlightjs: true
+extra_css:
+  - css/custom.css
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        # See: https://mkdocstrings.github.io/python/usage/
+        python:
+          options:
+            docstring_style: sphinx

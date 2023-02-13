@@ -1,0 +1,7 @@
+/*
+ * override rtd theme, we want to force wrapping rather than having a
+ * horizontal scrollbar on too wide columns.
+ */
+.wy-table-responsive table td {
+  white-space: normal !important;
+}
