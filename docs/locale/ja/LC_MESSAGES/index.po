@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pg_hint_plan \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-02 12:25+0800\n"
+"POT-Creation-Date: 2023-03-06 14:25+0800\n"
 "PO-Revision-Date: 2023-03-02 12:28+0800\n"
 "Last-Translator: Julien Rouhaud <rjuju123@gmail.com>\n"
 "Language: ja\n"
@@ -21,8 +21,8 @@ msgstr ""
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../index.md:1 1477c3a63d6140379ebc8ee8e6949aac
-msgid "pg_hint_plan 1.6"
-msgstr "pg_hint_plan 1.6"
+msgid "pg_hint_plan 1.5"
+msgstr "pg_hint_plan 1.5"
 
 #: ../../index.md:2 b5608f9be7e34270a28850acab4a3fae
 msgid "Table of Contents"

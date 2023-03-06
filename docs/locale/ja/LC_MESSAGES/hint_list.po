@@ -58,9 +58,7 @@ msgstr "`TidScan(テーブル)`"
 
 #: ../../hint_list.md 013e411dff4c46139b5b399e89390ed9
 msgid "Forces TID scan on the table."
-msgstr ""
-"指定したテーブルについて、Tid Scanを選択します。"
-"検索条件にctidを指定した場合にのみ有効です。"
+msgstr "指定したテーブルについて、Tid Scanを選択します。検索条件にctidを指定した場合にのみ有効です。"
 
 #: ../../hint_list.md bf31a7bfad5e414a91f527246c20b255
 msgid "`IndexScan(table[ index...])`"
@@ -94,8 +92,8 @@ msgid ""
 "`IndexScanRegexp(table[ POSIX Regexp...])` `IndexOnlyScanRegexp(table[ "
 "POSIX Regexp...])` `BitmapScanRegexp(table[ POSIX Regexp...])`"
 msgstr ""
-"`IndexScanRegexp(テーブル[ POSIX正規表現...])` `IndexOnlyScanRegexp(テーブル"
-"[ POSIX正規表現...])` B`itmapScanRegexp(テーブル[ POSIX正規表現...])`"
+"`IndexScanRegexp(テーブル[ POSIX正規表現...])` `IndexOnlyScanRegexp(テーブル[ "
+"POSIX正規表現...])` B`itmapScanRegexp(テーブル[ POSIX正規表現...])`"
 
 #: ../../hint_list.md 712140dbecb449e080b10a5a87580e2f
 msgid ""
@@ -111,8 +109,8 @@ msgstr "NoSeqScan(テーブル)"
 #: ../../hint_list.md 66e16b3daa6c4658af800716ccb06318
 msgid "Forces not to do sequential scan on the table."
 msgstr ""
-"指定したテーブルについて、Seq Scan以外でコストが最小となるスキャン方式を選択"
-"します。ただし、他のスキャン方式を選択できない場合は、Seq Scanを選択します。"
+"指定したテーブルについて、Seq Scan以外でコストが最小となるスキャン方式を選択します。ただし、他のスキャン方式を選択できない場合は、Seq "
+"Scanを選択します。"
 
 #: ../../hint_list.md 3ed2437ae7b94cafb174c69b5e3917cc
 msgid "`NoTidScan(table)`"
@@ -278,7 +276,7 @@ msgid "`Parallel(table <# of workers> [soft|hard])`"
 msgstr "``"
 
 #: ../../hint_list.md d088207a71c74a3085878261f10bbb89
-msgid "Parallel(テーブル ワーカ数 [強制度])"
+msgid ""
 "Enforce or inhibit parallel execution of specfied table. <# of workers> "
 "is the desired number of parallel workers, where zero means inhibiting "
 "parallel execution. If the third parameter is soft (default), it just "
@@ -299,6 +297,21 @@ msgid "Set the GUC parameter to the value while planner is running."
 msgstr ""
 
 #: ../../hint_list.md:34 baa5dbb928ef40b2b1705f244cc3be9c
-msgid "copyright (c) 2012-2023, nippon telegraph and telephone corporation"
+#, fuzzy
+msgid "Copyright (c) 2012-2023, NIPPON TELEGRAPH AND TELEPHONE CORPORATION"
 msgstr "copyright (c) 2012-2023, nippon telegraph and telephone corporation"
+
+#~ msgid ""
+#~ "Parallel(テーブル ワーカ数 [強制度])Enforce or inhibit"
+#~ " parallel execution of specfied table. "
+#~ "<# of workers> is the desired "
+#~ "number of parallel workers, where zero"
+#~ " means inhibiting parallel execution. If"
+#~ " the third parameter is soft "
+#~ "(default), it just changes "
+#~ "max_parallel_workers_per_gather and leave everything"
+#~ " else to planner. Hard means "
+#~ "enforcing the specified number of "
+#~ "workers."
+#~ msgstr ""
 
